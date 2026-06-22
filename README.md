@@ -7,14 +7,14 @@ A Deep Learning project that detects and classifies brain tumors from MRI images
 - Pituitary Tumor
 - No Tumor
 
-## 🚀 Features
+# 🚀 Features
 - MRI image classification using CNN
 - Data augmentation for improved model performance
 - Validation during training
 - Predicts tumor type with confidence score
 - Displays the input image and prediction result
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 - Python
 - TensorFlow / Keras
 - NumPy
@@ -22,22 +22,6 @@ A Deep Learning project that detects and classifies brain tumors from MRI images
 - OpenCV (optional)
 - Jupyter Notebook
 
-## 📂 Dataset Structure
-
-```text
-data image/
-│
-├── Training/
-│   ├── Glioma
-│   ├── Meningioma
-│   ├── Pituitary
-│   └── No Tumor
-│
-└── Testing/
-    ├── Glioma
-    ├── Meningioma
-    ├── Pituitary
-    └── No Tumor
 ```
 
 ## 🧠 Model Architecture
@@ -60,25 +44,7 @@ data image/
 - Epochs: 50
 - Validation Split: 10%
 
-## ▶️ How to Run
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/brain-tumor-detection.git
-cd brain-tumor-detection
-```
-
-2. Install dependencies:
-
-```bash
-pip install tensorflow numpy matplotlib
-```
-
-3. Run the notebook:
-
-```bash
-jupyter notebook brain_tumor.ipynb
 ```
 
 ## 📈 Output
